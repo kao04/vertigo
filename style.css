@@ -5,7 +5,17 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+root{
+
+}
+
 header{
     background-image: url(./img/bg-mobile.png);
     background-size: cover;
+    height: 8.375rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+;
 }
