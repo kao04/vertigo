@@ -8,8 +8,12 @@
 :root{
     --gray-800: #1E293B;
     --gray-600: #475569;
+    --purple: #7C3AED;
+
 ; 
 }
+
+/* fundo da logo e logo*/
 
 header{
     background-image: url(./img/bg-mobile.png);
@@ -25,7 +29,9 @@ header{
 main{
     padding-inline: 1.5rem;
 }
+/**/
 
+/* descrição*/
 .descricao h1{
     color: var(--gray-800);
     margin-bottom: 1rem;
@@ -38,4 +44,35 @@ main{
 
 .descricao{
     margin-bottom: 2.5rem;    
+}
+
+/**/
+
+/*Formulario*/
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login label{
+    font-size: 0.875rem;
+    color: var(--gray-800);
+    font-weight: 600;
+}
+
+.login a{
+    color: var(--purple);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.login a:hover{
+    text-decoration: underline;
 }
