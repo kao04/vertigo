@@ -30,3 +30,12 @@ main{
     color: var(--gray-800);
     margin-bottom: 1rem;
 }
+
+.descricao p{
+    color: var(--gray-600);
+    font-size: 0.8125rem;
+}
+
+.descricao{
+    margin-bottom: 2.5rem;    
+}
